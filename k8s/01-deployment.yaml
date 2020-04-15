@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: portepa/hello-world-nodejs
+          image: harbor.pks.pvtl.eu/pporte/hello-world-nodejs
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
